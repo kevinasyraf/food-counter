@@ -6,7 +6,7 @@
         android:title="@string/food_list"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/action_profile"
+        android:id="@+id/action_upload"
         android:title="@string/upload"
         app:showAsAction="never"/>
 </menu>

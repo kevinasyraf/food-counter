@@ -54,16 +54,16 @@ class MainActivity : AppCompatActivity() {
                 showRecyclerList()
             }
 
-            R.id.action_profile -> {
-                showProfile()
+            R.id.action_upload -> {
+                showUpload()
             }
         }
         setActionBarTitle(title)
     }
 
-    private fun showProfile() {
-        val profileIntent = Intent(this@MainActivity, Profile::class.java)
-        startActivity(profileIntent)
+    private fun showUpload() {
+        val uploadIntent = Intent(this@MainActivity, UploadActivity::class.java)
+        startActivity(uploadIntent)
     }
 
     private fun showSelectedFood(food: Food) {
