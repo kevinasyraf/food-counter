@@ -28,6 +28,15 @@ class UploadActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_upload)
+        imageView = findViewById(R.id.image_view)
+        imageView.setOnClickListener {
+            openImageChooser()
+        }
+
+        button = findViewById(R.id.button_upload)
+        button.setOnClickListener {
+            uploadImage()
+        }
     }
 
     override fun onClick(view: View?) {
