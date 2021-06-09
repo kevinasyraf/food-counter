@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Food Counter</string>
+    <string name="food_name">Food Name</string>
+    <string name="detail">Detail</string>
+    <string name="food_list">Food List</string>
+    <string name="upload">Upload Image</string>
+</resources>
